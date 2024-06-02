@@ -1,11 +1,11 @@
+var resultado = document.getElementById('resultado')
 
 function adicionar(num){
-    var resultado = document.getElementById('resultado')
     resultado.innerHTML = resultado.innerHTML + num
 }
 
 function calcular(){
-    document.getElementById('resultado').innerHTML = eval(document.getElementById('resultado').innerHTML)
+    resultado.innerHTML = eval(resultado.innerHTML)
 }
 
 function limpar(){
